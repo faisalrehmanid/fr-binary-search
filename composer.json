@@ -1,0 +1,33 @@
+{
+  "name": "faisalrehmanid/fr-binary-search",
+  "description": "This library provide binary search implementation for 2D array",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Faisal Rehman",
+      "email": "faisalrehmanid@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "Binary Search"
+  ],
+  "autoload": {
+    "psr-4": {
+      "FR\\BinarySearch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/Bootstrap.php"
+    ],
+    "psr-4": {
+      "FRUnitTest\\BinarySearch\\": "tests/src/unit"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8"
+  }
+}
